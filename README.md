@@ -39,6 +39,10 @@ nginx -s reload
 nginx -s stop
 ```
 
+## TODO
+
+* 如何设置静态资源访问权限，就算是最简单的`HTML`也可能希望设置访问权限，例如在需要在`header`中添加`token`
+
 
 ## 参考
 
