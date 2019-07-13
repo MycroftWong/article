@@ -2,6 +2,15 @@
 
 因为在学习`Spring Boot`的过程中，想搭建网页，而且了解到`Spring Boot`常用做微服务，并非`MVC`，而且`nginx`更适合做静态网页，在使用`Spring Boot`搭建网页时也遇到些问题，所以驱动我学习`nginx`。
 
+## 来源与问题
+
+在部署项目时确实遇到些问题：
+
+* 如何实现动静分离
+* 动静分离之后，主页路径会分发的动态服务器，如何设置主页指向静态资源`index.html`
+* 如何配置`HTTPS`
+* 如何强制`HTTP`转`HTTPS`
+
 ## 目的
 
 * 搭建静态网站
@@ -60,3 +69,10 @@ nginx -s stop
 
 [Nginx代理https强制http跳转https](https://blog.csdn.net/weixin_41679874/article/details/86249970)
 
+[nginx配置https转发到tomcat（使用自签名的证书）](https://cloud.tencent.com/developer/article/1199734)
+
+[Nginx与Tomcat实现请求动态数据与请求静态资源的分离](https://www.cnblogs.com/1214804270hacker/p/9299462.html)
+
+[Nginx动静分离](https://blog.csdn.net/zsj777/article/details/80241558)
+
+[Mac OS X 安装 Nginx](https://blog.csdn.net/ithomer/article/details/70963125)
